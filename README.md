@@ -44,7 +44,7 @@ child_records_app/
 
 ### backend
 ```
-cd backend
+cd .\backend\
 composer install
 cp .env.example .env
 php artisan key:generate
@@ -53,7 +53,7 @@ php artisan serve
 ```
 ### frontend
 ```
-cd frontend
+cd .\frontend\
 npm install
 npm run dev
 ```
